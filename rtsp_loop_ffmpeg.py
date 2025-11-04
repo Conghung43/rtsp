@@ -16,7 +16,7 @@ cmd = [
     "-f", "rtsp",
     "-rtsp_flags", "listen",
     "-rtsp_transport", "tcp",
-    "rtsp://localhost:8554/stream"
+    "rtsp://0.0.0.0:8554/stream"
 ]
 
 print("Starting RTSP stream at rtsp://localhost:8554/stream")
